@@ -1,7 +1,7 @@
-import React from 'react';
-import { cordsFromAddress } from './helpers';
+const React = require('react');
+const { cordsFromAddress } = require('./helpers');
 
-export default class extends React.Component {
+exports['google-maps-for-react'] = class extends React.Component {
   constructor(props) {
     super(props);
     
