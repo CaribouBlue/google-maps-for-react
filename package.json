@@ -1,0 +1,19 @@
+{
+  "name": "google-maps-for-react",
+  "version": "1.0.0",
+  "description": "Highly customizable google maps component for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "react",
+    "component",
+    "map",
+    "custom"
+  ],
+  "author": "Alec Draymore [alec.draymore@gmail.com] (https://cariboublue.github.io/)",
+  "license": "MIT"
+}
