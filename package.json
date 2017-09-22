@@ -15,5 +15,17 @@
     "custom"
   ],
   "author": "Alec Draymore [alec.draymore@gmail.com] (https://cariboublue.github.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaribouBlue/google-maps-for-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CaribouBlue/google-maps-for-react/issues"
+  },
+  "homepage": "https://github.com/CaribouBlue/google-maps-for-react#readme"
 }
