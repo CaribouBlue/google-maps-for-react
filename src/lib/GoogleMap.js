@@ -1,7 +1,7 @@
 const React = require('react');
 const { cordsFromAddress } = require('./helpers');
 
-exports['google-maps-for-react'] = class extends React.Component {
+module.exports = class extends React.Component {
   constructor(props) {
     super(props);
     
@@ -21,7 +21,7 @@ exports['google-maps-for-react'] = class extends React.Component {
 
   componentDidMount() {
     // Create google map
-    this.map = new window.google.maps.Map(this.refs.map, {
+    this.map = new window.google.maps.Map(document.getElementById('map'), {
       zoom: this.state.zoom,
       center: this.state.center,
     });
@@ -125,7 +125,7 @@ exports['google-maps-for-react'] = class extends React.Component {
         className={this.props.containerClassName}
       >
         <div
-          ref='map'
+          id='map'
           style={{
             width: this.props.dimensions ? this.props.dimensions[0] : '500px',
             height: this.props.dimensions ? this.props.dimensions[1] : '500px',
