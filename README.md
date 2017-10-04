@@ -19,7 +19,7 @@
 
 ### Install Module
 
-run ```npm install google-maps-for-react --save``` in console while in root directory to add the component to your library.
+run ```npm install google-maps-for-react --save``` in console while in root directory to add the component to your project.
 
 ### Initial Setup
 
