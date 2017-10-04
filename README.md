@@ -1,6 +1,6 @@
 # google-maps-for-react
 
-> Highly customizable google maps component for react.
+> The simplest customizable google maps component for react.
 
 - Try out a live demo of the component [here](https://google-maps-for-react.herokuapp.com)!
 
@@ -39,18 +39,21 @@ Import the component using ```import GoogleMap from 'google-maps-for-react;'```.
 
 The ```<GoogleMap />``` component can be customized by passing in a variety of properties. However, only one is required: ```apiKey```. References to this and all other properties follow.
 
-Example: ```<GoogleMap
-        apiKey={'abcd12345...'}    
-        center={ lat: -25.363, lng: 131.044 }                   
-        zoom={null}                     
-        markers={exampleMarkers}               
-        dimensions={null}               
-        containerStyle={exampleContainerStyle} 
-        containerClassName={null}         
-        mapStyle={exampleMapStyle}                   
-        mapClassName={null}               
-        onIdle={null}   
-      />```
+Example: 
+```
+<GoogleMap
+  apiKey={'abcd12345...'}    
+  center={ lat: -25.363, lng: 131.044 }                   
+  zoom={null}                     
+  markers={exampleMarkers}               
+  dimensions={null}               
+  containerStyle={exampleContainerStyle} 
+  containerClassName={null}         
+  mapStyle={exampleMapStyle}                   
+  mapClassName={null}               
+  onIdle={null}   
+/>
+```
 
 __apiKey__:
 - \*REQUIRED
@@ -122,18 +125,21 @@ __onIdle__:
 __Marker Objects__:
 - Description: The data used to build markers to be placed on the map view.
 - Type: Object
-  - Shape: ```{
-    position: 'Australia',       
-      // Cord Obj; or Address String
-    label: '',           
-      // String
-    title: '',          
-      // String
-    animation: 'drop',  
-      // String = 'drop', 'bounce'; or null
-    onClick: () => {},  
-      // Function
-  }```
+  - Shape: 
+```
+{
+  position: 'Australia',       
+    // Cord Obj; or Address String
+  label: '',           
+    // String
+  title: '',          
+    // String
+  animation: 'drop',  
+    // String = 'drop', 'bounce'; or null
+  onClick: () => {},  
+    // Function
+}
+```
   - __position__:
     - Description: Location the marker should be placed
     - Type: Object
