@@ -1,6 +1,6 @@
 {
   "name": "google-maps-for-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Highly customizable google maps component for React",
   "main": "build/index.js",
   "scripts": {
