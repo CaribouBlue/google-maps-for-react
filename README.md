@@ -2,7 +2,11 @@
 
 > The simplest customizable google maps component for react.
 
-- Try out a live demo of the component [here](https://google-maps-for-react.herokuapp.com)!
+- Try out a live demo of the component [here](https://google-maps-for-react.herokuapp.com)
+
+- The NPM page can be found [here](https://www.npmjs.com/package/google-maps-for-react)
+
+- The GitHub page can be found [here]https://github.com/CaribouBlue/google-maps-for-react)
 
 ## Table of Contents
 
@@ -12,6 +16,10 @@
 1. [Team](#team)
 
 ## Usage
+
+### Install Module
+
+run ```npm install google-maps-for-react --save``` in console while in root directory to add the component to your library.
 
 ### Initial Setup
 
