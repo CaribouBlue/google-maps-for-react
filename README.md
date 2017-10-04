@@ -6,7 +6,7 @@
 
 - The NPM page can be found [here](https://www.npmjs.com/package/google-maps-for-react)
 
-- The GitHub page can be found [here]https://github.com/CaribouBlue/google-maps-for-react)
+- The GitHub page can be found [here](https://github.com/CaribouBlue/google-maps-for-react)
 
 ## Table of Contents
 
